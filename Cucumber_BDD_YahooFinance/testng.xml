@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cucumber Test Suite">
+  <test name="Yahoo Finance Tests">
+    <classes>
+      <!-- Reference the TestRunner class, which is the entry point for Cucumber tests -->
+      <class name="runners.TestRunner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
